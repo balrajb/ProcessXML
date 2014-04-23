@@ -1,5 +1,8 @@
 <?php
 
+// NOTE - this file would not run directly, you have remove/delete
+// other lines and just test one method.
+
 // There are number of ways to read content from xml file
 
 // Can simply load xml file using simplexml lib, it will create xml object.
@@ -89,3 +92,21 @@ function array_to_xml($student_info, &$xml_student_info) {
         }
     }
 }
+
+######################################
+## To create xml,                   ##
+## we can use something like this.  ##
+######################################
+$doc = new DOMDocument('1.0');
+$doc->formatOutput = true;
+
+$root = $doc->createElement('user');
+$root = $doc->appendChild($root);
+
+$title = $doc->createElement('title');
+$title = $root->appendChild($title);
+
+$text = $doc->createTextNode('This is user\'s title');
+$text = $title->appendChild($text);
+
+echo $doc->saveXML();
