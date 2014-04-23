@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF8"?>
+<!DOCTYPE SiteConfidenceApi PUBLIC "SiteConfidence Api Version current"
+"http://api.siteconfidence.co.uk/current/assets/dtds/api.dtd">
+  <SiteConfidence Version="current">
+    <Request AccountId="MN1A3190"/>
+    <Response Status="Ok" Code="200" Message="Success.">
+      <Account AccountId="MN1A3190" Name="LiveDemo">
+        <Pages id="IP456" />
+      </Account>
+    </Response>
+  </SiteConfidence>
