@@ -1,0 +1,14 @@
+{
+    "name": "balraj/processxml",
+    "require": {
+        "twig/twig": "1.15.*@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Balraj\\ProcessXML\\": "src/"
+        }
+    }
+}

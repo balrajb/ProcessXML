@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE SiteConfidenceApi PUBLIC "SiteConfidence Api Version current" "http://api.siteconfidence.co.uk/current/assets/dtds/api.dtd">
+<SiteConfidence Version="current">
+  <Request AccountId=""/>
+  <Response Status="" Code="" Message="">
+    <Account AccountId="" Name="">
+      <Pages id=""/>
+    </Account>
+  </Response>
+</SiteConfidence>

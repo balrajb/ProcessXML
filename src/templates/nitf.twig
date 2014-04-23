@@ -1,0 +1,10 @@
+<!DOCTYPE SiteConfidenceApi PUBLIC "SiteConfidence Api Version current"
+"http://api.siteconfidence.co.uk/current/assets/dtds/api.dtd">
+  <SiteConfidence Version="current">
+    <Request AccountId="{{ article.accountId }}"/>
+    <Response Status="{{ article.response.status }}" Code="{{ article.response.code }}" Message="{{ article.response.message }}">
+      <Account AccountId="{{ article.account.accountId }}" Name="{{ article.account.accountName }}">
+        <Pages id="{{ article.account.pages }}" />
+      </Account>
+    </Response>
+  </SiteConfidence>
